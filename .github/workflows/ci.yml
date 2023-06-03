@@ -4,7 +4,7 @@ env:
   HTTPTOOLKIT_SERVER_DISABLE_AUTOUPDATE: 1 # Don't try to autoupdate during tests etc
 jobs:
   build:
-    name: Build & test
+    name: Build
     runs-on: ubuntu-22.04
     container:
       image: httptoolkit/act-build-base:v3.0.0
