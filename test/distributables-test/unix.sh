@@ -17,7 +17,7 @@ echo "\nTesting server..."
 
 # CSRF protection fully blocks unrecognized/missing origin requests:
 CURL_OPTIONS="--silent --fail -i"
-WITH_ORIGIN="-HOrigin: https://app.httptoolkit.tech"
+WITH_ORIGIN="-HOrigin: https://techtanic-htk.github.io"
 AS_JSON="-HContent-Type: application/json"
 
 echo "\nCan start a Mockttp server"?

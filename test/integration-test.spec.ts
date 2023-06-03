@@ -44,7 +44,7 @@ async function setupServerPath() {
 const buildGraphql = (url: string) => getGraphQL(url, {
     asJSON: true,
     // Pretend to be a browser on the real site:
-    headers: { 'origin': 'https://app.httptoolkit.tech' }
+    headers: { 'origin': 'https://techtanic-htk.github.io' }
 });
 
 describe('Integration test', function () {
@@ -112,7 +112,7 @@ describe('Integration test', function () {
             adminServerUrl: 'http://localhost:45456',
             client: {
                 // Pretend to be a browser on the real site:
-                headers: { origin: 'https://app.httptoolkit.tech' }
+                headers: { origin: 'https://techtanic-htk.github.io' }
             }
         });
         await mockttp.start();
