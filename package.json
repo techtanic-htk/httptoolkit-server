@@ -24,7 +24,7 @@
   },
   "repository": "techtanic-htk/httptoolkit-server",
   "homepage": "https://github.com/techtanic-htk/httptoolkit-server",
-  "bugs": "https://github.com/httptoolkit/httptoolkit-server/issues",
+  "bugs": "https://github.com/techtanic-htk/httptoolkit-server/issues",
   "dependencies": {
     "@devicefarmer/adbkit": "^3.2.4",
     "@graphql-tools/schema": "^8.5.0",
